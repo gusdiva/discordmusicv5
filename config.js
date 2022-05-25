@@ -8,8 +8,8 @@ module.exports = {
   scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   serverDeafen: true, //If you want bot to stay deafened
   defaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
-  supportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //Bug Report Link
+  supportServer: "https://www.youtube.com/channel/UCHU-w8K1fMx9fb2vIFbHf7A", //Support Server Link
+  Issues: "", //Bug Report Link
   permissions: 277083450689, //Bot Inviting Permissions
   disconnectTime: 30000, //How long should the bot wait before disconnecting from the voice channel. in miliseconds. set to 1 for instant disconnect.
   alwaysplay: true, // when set to true music will always play no matter if theres no one in voice channel.
@@ -19,24 +19,24 @@ module.exports = {
   nodes: [
     {
       identifier: "Main Node", //- Used for indentifier in stats commands.
-      host: "lavalink.darrenofficial.com",
-      port: 80,
-      password: "hellothere",
+      host: "usui-linku.kadantte.moe",
+      port: 443,
+      password: "Usui#0256",
       retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
       retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-      secure: false, //- Can be either true or false. Only use true if ssl is enabled!
+      secure: true, //- Can be either true or false. Only use true if ssl is enabled!
     },
   ],
-  embedColor: "#2f3136", //Color of the embeds, hex supported
+  embedColor: "#db706c", //Color of the embeds, hex supported
   presence: {
     //PresenceData object | https://discord.js.org/#/docs/main/stable/typedef/PresenceData
     status: "online", // You can have online, idle, and dnd(invisible too but it make people think the bot is offline)
     activities: [
       {
-        name: "Music", //Status Text
-        type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+        name: "Hyemhyemu", //Status Text
+        type: "WATCHING", // PLAYING, WATCHING, LISTENING, STREAMING
       },
     ],
   },
-  iconURL: "https://cdn.darrennathanael.com/icons/spinning_disk.gif", //This icon will be in every embed's author field
+  iconURL: "https://media.giphy.com/media/dMH5v2ol3eMfkj90kw/giphy.gif", //This icon will be in every embed's author field
 };
